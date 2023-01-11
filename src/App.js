@@ -43,9 +43,9 @@ export default class App extends Component {
         </nav>
 
         <Routes>
-          <Route path="/" element={<Button />} />
-          <Route path="/dog" element={<Game />} />
-          <Route path="/contact" element={<Hello />} />
+          <Route path="/reactplayground" element={<Button />} />
+          <Route path="/reactplayground/dog" element={<Game />} />
+          <Route path="/reactplayground/contact" element={<Hello />} />
         </Routes>
       </>
     );
