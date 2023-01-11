@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.js": "/static/js/main.5bfdc5ed.js",
-    "index.html": "/index.html",
-    "main.5bfdc5ed.js.map": "/static/js/main.5bfdc5ed.js.map"
+    "main.js": "/reactplayground/static/js/main.5bfdc5ed.js",
+    "index.html": "/reactplayground/index.html",
+    "main.5bfdc5ed.js.map": "/reactplayground/static/js/main.5bfdc5ed.js.map"
   },
   "entrypoints": [
     "static/js/main.5bfdc5ed.js"
