@@ -1,5 +1,6 @@
 {
   "name": "reactplayground",
+  "homepage": "https://mikeparkinwits.github.io/reactplayground/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
