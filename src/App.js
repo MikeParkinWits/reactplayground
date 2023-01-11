@@ -24,28 +24,28 @@ export default class App extends Component {
             className={(navData) =>
               navData.isActive ? console.log("Hello") : ""
             } //This form of 'className' replaces activeClassName => see https://dev.to/gabrlcj/react-router-v6-some-of-the-new-changes-181m
-            to="/dog"
+            to="/reactplayground/dog"
           >
             Dog
           </NavLink>
           <NavLink
             className={(navData) => (navData.isActive ? "active" : "")}
-            to="/"
+            to="/reactplayground"
           >
             About
           </NavLink>
           <NavLink
             className={(navData) => (navData.isActive ? "active" : "")}
-            to="/contact"
+            to="/reactplayground/contact"
           >
             Contact
           </NavLink>
         </nav>
 
         <Routes>
-          <Route path="/reactplayground/" element={<Button />} />
-          <Route path="/reactplayground/dog/" element={<Game />} />
-          <Route path="/reactplayground/contact/" element={<Hello />} />
+          <Route path="/reactplayground" element={<Button />} />
+          <Route path="/reactplayground/dog" element={<Game />} />
+          <Route path="/reactplayground/contact" element={<Hello />} />
         </Routes>
       </>
     );
